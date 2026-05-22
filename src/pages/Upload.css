@@ -1,0 +1,73 @@
+.upload-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.upload-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+}
+
+.upload-header {
+  margin-bottom: 32px;
+}
+
+.upload-icon-wrapper {
+  font-size: 48px;
+  color: var(--accent-primary);
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.upload-header h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.hidden-file-input {
+  display: none;
+}
+
+.file-upload-group label[for="file"] {
+  cursor: pointer;
+  justify-content: center;
+  border-style: dashed;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.file-upload-group label[for="file"]:hover {
+  border-color: var(--accent-primary);
+  background: rgba(99, 102, 241, 0.1);
+}
+
+.submit-btn {
+  margin-top: 16px;
+  padding: 14px;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+  }
+}

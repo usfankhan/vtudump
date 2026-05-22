@@ -1,0 +1,40 @@
+.ad-banner {
+  padding: 24px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
+  border: 1px solid rgba(236, 72, 153, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.ad-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent-secondary);
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.ad-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.ad-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.ad-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.ad-btn {
+  width: 100%;
+}
